@@ -49,6 +49,10 @@ Consigna base: [TP-Regresion-Softmax-TNG](https://github.com/cselmo/TP-Regresion
 - Los experimentos de la sección 11 usan semillas fijas (0 a 4). El desvío reportado es entre semillas (inicialización y orden de los batches) y no incluye la variabilidad de la partición train/val.
 - La partición de validación es una sola (80/20 del train, estratificada, SEED = 42).
 
+## Aclaración sobre la corrida del pipelina
+
+Las secciones 1 a 10 se ejecutaron en Colab con GPU en la corrida original y la sección 11 en una corrida posterior, sin repetir las búsquedas de Optuna.
+
 ## Declaración de uso de IA
 
 Usé Claude (Anthropic) para entender el código del notebook, razonar los resultados y llegar a conclusiones, y como base para redactar algunos de los análisis, que luego reescribí con mis palabras y verifiqué contra los outputs.
